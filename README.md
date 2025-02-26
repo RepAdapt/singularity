@@ -2,7 +2,7 @@
 ## Background
 This repo contains [Apptainer](https://apptainer.org) (formerly Singularity) commands and image locations for RepAdapt genotyping tools. 
 
-Singularity commands in this repo are based on an existing installation of Apptainer. Installation instructions can be [found here](https://apptainer.org/docs/admin/main/installation.html). It is also possible, and probably eaiser, to install these tools with [conda/mamba](https://github.com/conda-forge/miniforge). 
+Singularity commands in this repo are based on an existing installation of Apptainer. Installation instructions can be [found here](https://apptainer.org/docs/admin/main/installation.html). It is also possible, and probably easier, to install these tools with [conda/mamba](https://github.com/conda-forge/miniforge). 
 
 ## Installation and environment activation
 A singularity installation is possible using conda/mamba as well, either directly, as:

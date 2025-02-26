@@ -26,4 +26,4 @@ mamba activate nf-core
 
 ## RepAdapt images
 Singularity/apptainer images can now be downloaded and used for bioinformatic analysis.
-Commands for pulling images of all RepAdapt tools are in RepAdaptSingularity.md
+Commands for pulling images of all RepAdapt tools are in [RepAdaptSingularity.md](https://github.com/RepAdapt/singularity/blob/main/RepAdaptSingularity.md)

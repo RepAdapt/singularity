@@ -1,0 +1,1 @@
+This repo contains the code required for running genotyping steps with Singularity images. Setup instructions are [here](https://github.com/RepAdapt/singularity/blob/main/RepAdapt.singularity.genotyping.setup.md)

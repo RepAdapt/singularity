@@ -13,6 +13,8 @@ species = species name
 repadaptimages = location of Singularity images
 bamfile = list of realigned.bam files to genotype
 runname = genotyping run
+set = set of individuals to run analyses on, passed from text list
+chrom = chromosome of aligned reference assembly
 ```
 
 The Singularity images required can be built with this command:

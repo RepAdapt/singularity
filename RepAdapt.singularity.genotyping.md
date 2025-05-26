@@ -39,8 +39,8 @@ RGID=$(echo $ind |  sed 's/i5.*/i5/') ;
 SMID=$(echo $ind | sed 's/NS.*i5.//') ;
 LBID=$(echo $ind | sed 's/.UDP.*//');
 
-#note RGID, SMID, LBID are generated using regex based on filename prefixes/suffixes, which vary depending on sequencing provider. 
-These may vary depending on sequencing platform, so the variables above will work for NovaSeq sequenced reads from Genome Quebec.
+##note RGID, SMID, LBID are generated using regex based on filename prefixes/suffixes, which vary depending on sequencing provider. 
+##These may vary depending on sequencing platform, so the variables above will work for NovaSeq sequenced reads from Genome Quebec.
 
 apptainer exec \
   -B $projdir \

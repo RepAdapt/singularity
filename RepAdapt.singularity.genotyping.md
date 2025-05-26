@@ -28,7 +28,7 @@ $repadaptimages/bwa_0.7.17.sif bash -c "bwa index $genome"
 apptainer exec -B $genomedir \
 $repadaptimages/samtools_1.16.1.sif bash -c "samtools faidx $genome"
 apptainer exec -B $genomedir \
-$repadaptimages/gatk_4.4.1.sif bash -c "gatk CreateSequenceDictionary -R $genome"
+$repadaptimages/picard_2.26.3.sif bash -c "picard CreateSequenceDictionary R=$genome"
 ```
 
 align:
